@@ -21,9 +21,14 @@
             {% for page in paginator.pages %}
             <div class="card">
               <div class="card-body">
-                <h2 class="h3"><a class="stretched-link text-body" href="{{ page.permalink }}">{{ page.title }}</a></h2>
+                <h2 class="h3" style="margin-bottom:4px;">
+                  <a class="stretched-link text-body" href="{{ page.permalink }}">{{ page.title }}</a>
+                </h2>
                 {% if page.extra.lead %}
-                  <p class="lead">{{ page.extra.lead | safe }}</p>{% elif page.description %}<p class="lead">{{ page.description | safe }}</p>{% endif %}
+                  <p class="lead" style="margin-bottom:4px;">{{ page.extra.lead | safe }}</p>
+                {% elif page.description %}
+                  <p class="lead">{{ page.description | safe }}</p>
+                {% endif %}
                 {{ macros_publish::page_publish_metadata(page=page) }}
               </div>
             </div>

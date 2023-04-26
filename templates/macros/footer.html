@@ -5,9 +5,9 @@
 			<div class="col-lg-8 order-last order-lg-first">
 				<ul class="list-inline">
 					{% if config.extra.footer.info %}
-						<li class="list-inline-item">{{ config.extra.footer.info | default(value="Powered by AdiDoks") | safe }}</li>
+						<em><li class="list-inline-item" style="font-size:10pt;opacity:0.65;">{{ config.extra.footer.info | default(value="Powered by AdiDoks") | safe }}</li></em>
 					{% else %}
-						<li class="list-inline-item">Powered by <a href="https://www.netlify.com/">Netlify</a>, <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li>
+						<!-- <li class="list-inline-item">Powered by <a href="https://www.netlify.com/">Netlify</a>, <a href="https://www.getzola.org/">Zola</a>, and <a href="https://github.com/aaranxu/adidoks">AdiDoks</a></li> -->
 					{% endif %}
 				</ul>
 			</div>

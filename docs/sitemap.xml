@@ -35,18 +35,21 @@
         <loc>https://medicamina.github.io/blog/page/1/</loc>
     </url>
     <url>
-        <loc>https://medicamina.github.io/blog/page/2/</loc>
-    </url>
-    <url>
-        <loc>https://medicamina.github.io/blog/page/3/</loc>
-    </url>
-    <url>
         <loc>https://medicamina.github.io/blog/placeholder-text/</loc>
         <lastmod>2021-04-10T09:19:42+00:00</lastmod>
     </url>
     <url>
         <loc>https://medicamina.github.io/blog/say-hello-to-zola-doks/</loc>
         <lastmod>2021-04-03T07:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://medicamina.github.io/contact/</loc>
+    </url>
+    <url>
+        <loc>https://medicamina.github.io/contributors/</loc>
+    </url>
+    <url>
+        <loc>https://medicamina.github.io/date/</loc>
     </url>
     <url>
         <loc>https://medicamina.github.io/docs/</loc>
@@ -81,9 +84,12 @@
         <lastmod>2021-05-01T19:30:00+00:00</lastmod>
     </url>
     <url>
-        <loc>https://medicamina.github.io/fi/</loc>
+        <loc>https://medicamina.github.io/license/</loc>
     </url>
     <url>
         <loc>https://medicamina.github.io/privacy-policy/</loc>
+    </url>
+    <url>
+        <loc>https://medicamina.github.io/tags/</loc>
     </url>
 </urlset>
