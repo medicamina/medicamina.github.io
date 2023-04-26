@@ -1,156 +1,177 @@
-<p align="center">
-  <a href="https://getdoks.org/">
-    <img alt="Doks" src="https://doks.netlify.app/logo-doks.svg" width="60">
-  </a>
-</p>
+# Zola Theme AdiDoks
 
-<h1 align="center">
-  Doks
-</h1>
-
-<h3 align="center">
-  Doks Child Theme
-</h3>
-
-<p align="center">
-  Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.
-</p>
-
-<p align="center">
-  <a href="https://github.com/h-enk/doks-child-theme/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/h-enk/doks-child-theme?style=flat-square" alt="GitHub">
-  </a>
-  <a href="https://github.com/h-enk/doks-child-theme/releases">
-    <img src="https://img.shields.io/github/v/release/h-enk/doks-child-theme?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
-  </a>
-  <a href="https://github.com/h-enk/doks-child-theme/actions/workflows/codeql-analysis.yml">
-    <img src="https://img.shields.io/github/workflow/status/h-enk/doks-child-theme/CodeQL/master?style=flat-square" alt="GitHub Workflow Status (branch)">
-  </a>
-  <a href="https://app.netlify.com/sites/hyas-child-theme/deploys">
-    <img src="https://img.shields.io/netlify/75395a37-8537-4410-a8c3-d56bf27ec963?style=flat-square" alt="Netlify">
-  </a>
-</p>
-
-![Doks — Modern Documentation Theme](https://raw.githubusercontent.com/h-enk/doks/master/images/doks.png)
+AdiDoks is a modern documentation theme, which is a port of the Hugo
+theme [Doks](https://github.com/h-enk/doks) for Zola.
 
 ## Demo
 
-- [doks-child-theme.netlify.app](https://doks-child-theme.netlify.app/)
-
-## Why Doks?
-
-Nine main reasons why you should use Doks:
-
-1. __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/doks.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
-
-2. __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053) by default. Doks removes unused css, prefetches links, and lazy loads images.
-
-3. __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
-
-4. __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
-
-5. __Bootstrap framework__. Build robust, flexible, and intuitive websites with Bootstrap 5. Easily customize your Doks site with the source Sass files.
-
-6. __Netlify-ready__. Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
-
-7. __Full text search__. Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.
-
-8. __Page layouts__. Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.
-
-9. __Dark mode__. Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.
-
-### Other features
-
-- __Multilingual and i18n__ support
-- __Versioning__ documentation support
-- __KaTeX__ math typesetting
-- __Mermaid__ diagrams and visualization
-- __highlight.js__ syntax highlighting
+[Live Preview](https://adidoks.netlify.app/).
 
 ## Requirements
 
-- [Git](https://git-scm.com/) — latest source release
-- [Node.js](https://nodejs.org/) — latest LTS version or newer
+Before using the theme, you need to install the [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.15.0.
 
-<details>
-<summary>Why Node.js?</summary>
-
-Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update](https://getdoks.org/docs/help/how-to-update/) resources, build tooling, plugins, and build scripts.
-
-</details>
-
-## Get started
-
-Start a new Doks project in three steps:
-
-### 1. Create a new site
-
-Doks is available as a child theme and a starter theme.
-
-#### Child theme
-
-- Intended for novice to intermediate users
-- Intended for minor customizations
-- [Easily update npm packages](https://getdoks.org/docs/help/how-to-update/) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
+## Quick Start
 
 ```bash
-git clone https://github.com/h-enk/doks-child-theme.git my-doks-site && cd my-doks-site
+git clone https://github.com/aaranxu/adidoks.git
+cd adidoks
+zola serve
+# open http://127.0.0.1:1111/ in the browser
 ```
 
-#### Starter theme
+Read more from [the document of the AdiDoks](https://adidoks.org/docs/getting-started/introduction/).
 
-- Intended for intermediate to advanced users
-- Intended for major customizations
-- [Easily update npm packages](https://getdoks.org/docs/help/how-to-update/)
+## Installation
+
+Just earlier we showed you how to run the theme directly. Now we start to
+install the theme in an existing site step by step.
+
+### Step 1: Create a new zola site
 
 ```bash
-git clone https://github.com/h-enk/doks.git my-doks-site && cd my-doks-site
+zola init mysite
 ```
 
-<details>
-<summary>Help me choose</summary>
+### Step 2: Install AdiDoks
 
-Not sure which one is for you? Pick the child theme.
-
-</details>
-
-### 2. Install dependencies
+Download this theme to your themes directory:
 
 ```bash
-npm install
+cd mysite/themes
+git clone https://github.com/aaranxu/adidoks.git
 ```
 
-### 3. Start development server
+Or install as a submodule:
 
 ```bash
-npm run start
+cd mysite
+git init  # if your project is a git repository already, ignore this command
+git submodule add https://github.com/aaranxu/adidoks.git themes/adidoks
 ```
 
-## Other commands
+### Step 3: Configuration
 
-Doks comes with [commands](https://getdoks.org/docs/prologue/commands/) for common tasks.
+Enable the theme in your `config.toml` in the site directory:
 
-## Documentation
+```toml
+theme = "adidoks"
+```
 
-- [Netlify](https://docs.netlify.com/)
-- [Hugo](https://gohugo.io/documentation/)
-- [Doks](https://getdoks.org/)
+Or copy the `config.toml.example` from the theme directory to your project's
+root directory:
 
-## Communities
+```bash
+cp themes/adidoks/config.toml.example config.toml
+```
 
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
-- [Doks Discussions](https://github.com/h-enk/doks/discussions)
+### Step 4: Add new content
 
-## Sponsors
+You can copy the content from the theme directory to your project:
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+```bash
+cp -r themes/adidoks/content .
+```
 
-[![OC sponsor 0](https://opencollective.com/doks/tiers/sponsor/0/avatar.svg)](https://opencollective.com/doks/tiers/sponsor/0/website)
-[![OC sponsor 1](https://opencollective.com/doks/tiers/sponsor/1/avatar.svg)](https://opencollective.com/doks/tiers/sponsor/1/website)
+You can modify or add new posts in the `content/blog`, `content/docs` or other
+content directories as needed.
 
-## Backers
+### Step 5: Run the project
 
-Support this project by becoming a backer. Your avatar will show up here.
+Just run `zola serve` in the root path of the project:
 
-[![Backers](https://opencollective.com/doks/tiers/backer.svg?49741992)](https://opencollective.com/doks)
+```bash
+zola serve
+```
+
+AdiDoks will start the Zola development web server accessible by default at
+`http://127.0.0.1:1111`. Saved changes will live reload in the browser.
+
+## Customisation
+
+You can customize your configurations, templates and content for yourself. Look
+at the `config.toml`, `theme.toml`, `content` files and templates files in this
+repo for an idea.
+
+### Global Configuration
+
+There are some configuration options that you can customize in `config.toml`.
+
+#### Configuration options before `extra` options
+
+Set the authors's taxonomies for the site.
+
+```toml
+taxonomies = [
+  {name = "authors"},
+]
+```
+
+Use search function for the content.
+
+```toml
+build_search_index = true
+```
+
+#### Configuration options under the `extra`
+
+The following options should be under the `[extra]` in `config.toml`
+
+- `language_code` - set HTML file language (default to `en-US`)
+- `theme_color` - your site's HTML color (default to `#fff`)
+- `title_separator` - the separator to your site title, like `|` and `-` (defaults to `|`)
+- `title_addition` - the additon content for the title of the homepage
+- `timeformat` - the timeformat for the blog article published date
+- `timezone` - the timezone for the blog article published date
+- `edit_page` (and `docs_repo`, `repo_branch`) - whether to show the edit page in the github repo for your docs
+- `math` (and `library`) - set KaTeX or MathJax library
+- `[extra.open]` - Open Graph + Twitter Cards for the site
+- `[extra.schema]` - set JSON-LD for the site
+- `[[extra.menu.main]]` - the header navigations for the site
+- `[[extra.menu.social]]` - the social links on the header of the page
+- `[extra.footer]` - the footer content on the left
+- `[[extra.footer.nav]]` - the footer navigations on the right
+
+### Templates
+
+All pages are extend to the `base.html`, and you can customize them as need.
+
+### Content
+
+#### Homepage
+
+Go to the *content/_index.md* file to add your own homepage content.
+
+- `[extra]` - the main content of the homepage
+- `[[extra.ist]]` - the lists' content of the homepage
+
+#### Sections
+
+Each section includes a `_index.md`, and you can customize it or add your new
+section under the `content` folder.
+
+#### Pages
+
+There are mainly three types of pages in the site.
+
+- `blog` - blog article
+- `docs` - documentation article
+- `authors` - authors page if you need to add some information for a new author
+
+## Reporting Issues
+
+We use GitHub Issues as the official bug tracker for the **AdiDoks**. Please
+search [existing issues](https://github.com/aaranxu/adidoks/issues). It’s
+possible someone has already reported the same problem.
+
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/aaranxu/adidoks/issues/new).
+
+## Contributing
+
+We'd love your help! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) to learn
+about the kinds of contributions we're looking for.
+
+## License
+
+**AdiDoks** is distributed under the terms of the
+[MIT license](https://github.com/aaranxu/adidoks/blob/main/LICENSE).

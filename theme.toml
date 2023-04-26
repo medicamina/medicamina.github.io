@@ -1,14 +1,17 @@
-name = "Doks child theme"
+name = "adidoks"
+description = "AdiDoks is a Zola theme helping you build modern documentation."
 license = "MIT"
-licenselink = "https://github.com/h-enk/doks/blob/master/LICENSE"
-description = "Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+homepage = "https://github.com/aaranxu/adidoks"
+min_version = "0.15.0"
+demo = "https://adidoks.netlify.app/"
 
-homepage = "https://github.com/h-enk/doks-child-theme"
-demosite = "https://doks-child-theme.netlify.app"
-
-tags = ["landing page", "documentation", "blog", "minimal", "modern", "customizable", "search", "dark mode", "bootstrap"]
-features = ["security aware", "fast by default", "seo-ready", "development tools", "bootstrap framework", "netlify-ready", "full text search", "page layouts", "dark mode"]
+[extra]
 
 [author]
-  name = "Henk Verlinde"
-  homepage = "https://henkverlinde.com"
+name = "Aaran Xu"
+homepage = "https://github.com/aaranxu"
+
+[original]
+author =  "h-enk"
+homepage = "https://getdoks.org/"
+repo = "https://github.com/h-enk/doks"
