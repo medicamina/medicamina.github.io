@@ -37,7 +37,6 @@ timezone = "UTC"
 edit_page = false # Edit page on reposity or not
 docs_repo = "https://github.com/medicamina/medicamina.github.io" # Edit page repo
 repo_branch = "main"
-#url_button = "Get help"
 
 ## Math settings
 # options: true, false. Enable math support globally,
@@ -52,15 +51,15 @@ image = "doks.png"
 twitter_site = "medicamina"
 twitter_creator = "medicamina"
 facebook_author = "medicamina"
-facebook_publisher = "meicamina"
+facebook_publisher = "medicamina"
 og_locale = "en_US"
 
 ## JSON-LD
 [extra.schema]
 type = "Organization"
-logo = "logo-doks.png"
+logo = "logo.png"
 twitter = "https://twitter.com/medicamina"
-linked_in = ""
+linked_in = "https://www.linkedin.com/company/medicamina"
 github = "https://github.com/medicamina"
 section = "blog" # see config.extra.main~url
 site_links_search_box = false
@@ -92,12 +91,12 @@ name = "License Agreement"
 url = "/license/"
 weight = 20
 
-[[extra.footer.nav]]
-name = "Contributors"
-url = "/contributors/"
-weight = 30
+# [[extra.footer.nav]]
+# name = "Contributors"
+# url = "/contributors/"
+# weight = 30
 
-[[extra.footer.nav]]
-name = "Contact"
-url = "/contact/"
-weight = 40
+# [[extra.footer.nav]]
+# name = "Contact"
+# url = "/contact/"
+# weight = 40

@@ -1,19 +1,21 @@
 +++
 title = "Quick Start"
-description = "One page summary of how to start a new AdiDoks project."
+description = "One page summary of medicamina."
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00
 draft = false
-weight = 20
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
+publish = true
 
 [extra]
-lead = "One page summary of how to start a new AdiDoks project."
+lead = "One page summary of medicamina."
 toc = true
 top = false
 +++
 
+<!-- 
 ## Requirements
 
 Before using the theme, you need to install the [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.15.0.
@@ -91,4 +93,4 @@ zola serve
 ```
 
 AdiDoks will start the Zola development web server accessible by default at 
-`http://127.0.0.1:1111`. Saved changes will live reload in the browser.
+`http://127.0.0.1:1111`. Saved changes will live reload in the browser. -->

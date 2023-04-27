@@ -3,7 +3,10 @@
 <header class="navbar fixed-top navbar-expand-md navbar-light">
 	<div class="container">
 		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
-		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+		<label class="menu-icon d-md-none" for="menu-btn" style="padding-top: 16px;">
+			<span class="navicon"></span>
+		</label>
+		&nbsp;&nbsp;
 		<a class="navbar-brand order-1 order-md-0 me-auto" href="{{ config.base_url | safe }}">{{ config.title | default(value="medicamina") }}</a>
 		
 		<ul class="navbar-nav fork-me order-3 order-md-5">
@@ -34,7 +37,7 @@
 				{% if mainsec.extra.menu.main %}
 					{% for val in mainsec.extra.menu.main %}
 						<li class="nav-item{% if current_section == val.section %} {{ current_section }} active{% endif %}">
-							<a class="nav-link" href="{{ get_url(path=val.url, trailing_slash=true) | safe }}">{{ val.name }}</a>
+							<a class="nav-link" style="padding-top: 6px;" href="{{ get_url(path=val.url, trailing_slash=true) | safe }}">{{ val.name }}</a>
 						</li>
 					{% endfor %}
 				{% elif config.extra.menu.main %}

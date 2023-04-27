@@ -1,12 +1,11 @@
 +++
 title = "Guides and blog"
 
-
 # The homepage contents
 [extra]
-lead = '<b>medicamina</b> is an application which is aimed at providing precision medicine to the public.'
+lead = '<em>medicamina</em> is an application which is aimed at providing precision medicine technologies to the public.'
 url = "/docs/getting-started/introduction/"
-url_button = "Read documentation"
+url_button = "📖 Read the documentation"
 repo_version = "GitHub v0.1.0"
 repo_license = "Open-source MIT License."
 repo_url = "https://github.com/medciamina/medicamina.github.io"
@@ -23,6 +22,18 @@ name = "Blog"
 section = "blog"
 url = "/blog/"
 weight = 20
+
+[[extra.menu.main]]
+name = "Team"
+section = "contributors"
+url = "/contributors/"
+weight = 30
+
+#[[extra.menu.main]]
+#name = "Contact"
+#section = "contact"
+#url = "/contact/"
+#weight = 40
 
 [[extra.list]]
 title = "Privacy aware"

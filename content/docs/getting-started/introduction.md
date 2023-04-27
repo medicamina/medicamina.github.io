@@ -1,31 +1,28 @@
 +++
 title = "Introduction"
-description = "AdiDoks is a Zola theme helping you build modern documentation websites, which is a port of the Hugo theme Doks for Zola."
+description = "medicamina is a an application designed to help you access modern precision medicine techniques."
 date = 2021-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
 draft = false
-weight = 10
+weight = 1
 sort_by = "weight"
 template = "docs/page.html"
+publish = true
 
 [extra]
-lead = 'AdiDoks is a Zola theme helping you build modern documentation websites, which is a port of the Hugo theme <a href="https://github.com/h-enk/doks">Doks</a> for Zola.'
+lead = 'medicamina is a an application designed to help you access modern precision medicine techniques.'
 toc = true
 top = false
 +++
 
 ## Quick Start
 
-One page summary of how to start a new AdiDoks project. [Quick Start →](../quick-start/)
-
-## Go further
-
-Contributing and Help.
+One page summary of how to start medicamina. [Quick Start →](../quick-start/)
 
 ## Contributing
 
-Find out how to contribute to Doks. [Contributing →](../../contributing/how-to-contribute/)
+Find out how to contribute to medicamina. [Contributing →](../../contributing/how-to-contribute/)
 
 ## Help
 
-Get help on Doks. [Help →](../../help/faq/)
+Get the frequently asked questions on medicamina. [Help →](../../help/faq/)

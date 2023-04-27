@@ -1,37 +1,42 @@
 +++
 title = "How to Contribute"
-description = "Contribute to AdiDoks, improve documentation, or submit to showcase."
+description = "Contribute to medicamina, improve documentation, or submit to showcase."
 date = 2021-05-01T18:10:00+00:00
 updated = 2021-05-01T18:10:00+00:00
 draft = false
-weight = 410
+weight = 2
 sort_by = "weight"
 template = "docs/page.html"
+publish = true
 
 [extra]
-lead = "Contribute to AdiDoks, improve documentation, or submit to showcase."
+lead = "Contribute to medicamina, improve documentation, or submit to showcase."
 toc = true
 top = false
 +++
 
 👉 Make sure to read the [Code of Conduct](../code-of-conduct/).
 
-## Contribute to Doks
+## Disclaimer
 
-👉 The AdiDoks code lives in the [`adidoks` repository](https://github.com/aaranxu/adidoks)
+By contributing to medicamina's source code your name will be listed on the team list.
+
+## Contribute to medicamina
+
+👉 The medicamina code lives in the [`medicamina` repository](https://github.com/medicamina)
 
 - Follow the [GitHub flow](https://guides.github.com/introduction/flow/).
 - Follow the [Conventional Commits Specification](https://www.conventionalcommits.org/en/v1.0.0/)
+  
+🧑‍💻 Create a pull request, wait for a code review.
 
 ### Create an issue
 
-- [Bug report](https://github.com/aaranxu/adidoks/issues/new?template=bug-report---.md)
-- [Feature request](https://github.com/aaranxu/adidoks/issues/new?template=feature-request---.md)
+- Bug reports
+- Feature requests
 
 ## Improve documentation
 
-👉 The documentation lives in [`./content/docs/`](https://github.com/aaranxu/adidoks/tree/master/content/docs)
-of the [`adidoks` repository](https://github.com/h-enk/getdoks.org).
+👉 The documentation lives in [`./docs/`](https://github.com/medicamina/medicamina.github.io/tree/main/docs).
 
-- Follow the [GitHub flow](https://guides.github.com/introduction/flow/).
 - Follow the [Conventional Commits Specification](https://www.conventionalcommits.org/en/v1.0.0/)
