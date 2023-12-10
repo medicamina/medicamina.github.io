@@ -2,13 +2,21 @@
 
 The medicamina documentation.
 
-## Scripting
+## Getting started
 
 ```bash
 brew install zola
+```
 
+## Running the project
+
+```bash
 zola serve
+```
 
+## Deploy
+
+```bash
 zola build
 ```
 
@@ -21,7 +29,7 @@ zola build
 <div align="center">
   <a href="https://getzola.org">Zola</a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://http://adidoks.netlify.app">Adidoks</a>
+  <a href="https://adidoks.netlify.app">Adidoks</a>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://pages.github.com">GitHub Pages</a>
 </div>
