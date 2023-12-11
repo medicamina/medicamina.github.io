@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>medicamina</title>
     <subtitle>Documentation for medicamina.</subtitle>
-    <link href="https://medicamina.github.io/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://medicamina.github.io"/>
+    <link href="https://docs.medicamina.us/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://docs.medicamina.us"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2023-12-10T18:20:00+00:00</updated>
-    <id>https://medicamina.github.io/atom.xml</id>
+    <id>https://docs.medicamina.us/atom.xml</id>
     <entry xml:lang="en">
         <title>New domain</title>
         <published>2023-12-10T18:20:00+00:00</published>
@@ -14,8 +14,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/blog/new-domain/" type="text/html"/>
-        <id>https://medicamina.github.io/blog/new-domain/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/blog/new-domain/" type="text/html"/>
+        <id>https://docs.medicamina.us/blog/new-domain/</id>
         
         <content type="html">&lt;p&gt;Medicamina has a new web domain, since it&#x27;s inception in 2022 it has been an entirely isolated project, from now on it&#x27;s progress will be viewable live from &lt;a href=&quot;https:&#x2F;&#x2F;medicamina.us&quot;&gt;medicamina.us&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </content>
@@ -28,8 +28,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/blog/hello-world/" type="text/html"/>
-        <id>https://medicamina.github.io/blog/hello-world/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/blog/hello-world/" type="text/html"/>
+        <id>https://docs.medicamina.us/blog/hello-world/</id>
         
         <content type="html">&lt;p&gt;Hello!&lt;&#x2F;p&gt;
 </content>
@@ -42,8 +42,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/docs/help/faq/" type="text/html"/>
-        <id>https://medicamina.github.io/docs/help/faq/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/docs/help/faq/" type="text/html"/>
+        <id>https://docs.medicamina.us/docs/help/faq/</id>
         
         <content type="html">&lt;h2 id=&quot;keyboard-shortcuts-for-search&quot;&gt;Keyboard shortcuts for search?&lt;&#x2F;h2&gt;
 &lt;ul&gt;
@@ -62,8 +62,8 @@
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/docs/contributing/code-of-conduct/" type="text/html"/>
-        <id>https://medicamina.github.io/docs/contributing/code-of-conduct/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/docs/contributing/code-of-conduct/" type="text/html"/>
+        <id>https://docs.medicamina.us/docs/contributing/code-of-conduct/</id>
         
         <content type="html">&lt;h2 id=&quot;our-standards&quot;&gt;Our Standards&lt;&#x2F;h2&gt;
 &lt;p&gt;Examples of behavior that contributes to a positive environment for our
@@ -158,8 +158,8 @@ at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translat
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/docs/contributing/how-to-contribute/" type="text/html"/>
-        <id>https://medicamina.github.io/docs/contributing/how-to-contribute/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/docs/contributing/how-to-contribute/" type="text/html"/>
+        <id>https://docs.medicamina.us/docs/contributing/how-to-contribute/</id>
         
         <content type="html">&lt;p&gt;👉 Make sure to read the &lt;a href=&quot;..&#x2F;code-of-conduct&#x2F;&quot;&gt;Code of Conduct&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;&#x2F;h2&gt;
@@ -191,8 +191,8 @@ at &lt;a href=&quot;https:&#x2F;&#x2F;www.contributor-covenant.org&#x2F;translat
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/docs/getting-started/quick-start/" type="text/html"/>
-        <id>https://medicamina.github.io/docs/getting-started/quick-start/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/docs/getting-started/quick-start/" type="text/html"/>
+        <id>https://docs.medicamina.us/docs/getting-started/quick-start/</id>
         
         <content type="html">&lt;!-- 
 ## Requirements
@@ -283,8 +283,8 @@ AdiDoks will start the Zola development web server accessible by default at
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/docs/developing/variables/" type="text/html"/>
-        <id>https://medicamina.github.io/docs/developing/variables/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/docs/developing/variables/" type="text/html"/>
+        <id>https://docs.medicamina.us/docs/developing/variables/</id>
         
         <content type="html">&lt;h2 id=&quot;networking-permissions&quot;&gt;Networking permissions&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.flutter.dev&#x2F;development&#x2F;data-and-backend&#x2F;networking#platform-notes&quot;&gt;https:&#x2F;&#x2F;docs.flutter.dev&#x2F;development&#x2F;data-and-backend&#x2F;networking#platform-notes&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -334,8 +334,8 @@ AdiDoks will start the Zola development web server accessible by default at
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/docs/getting-started/introduction/" type="text/html"/>
-        <id>https://medicamina.github.io/docs/getting-started/introduction/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/docs/getting-started/introduction/" type="text/html"/>
+        <id>https://docs.medicamina.us/docs/getting-started/introduction/</id>
         
         <content type="html">&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
 &lt;p&gt;One page summary of how to start medicamina. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -353,8 +353,8 @@ AdiDoks will start the Zola development web server accessible by default at
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/blog/markdown-syntax/" type="text/html"/>
-        <id>https://medicamina.github.io/blog/markdown-syntax/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/blog/markdown-syntax/" type="text/html"/>
+        <id>https://docs.medicamina.us/blog/markdown-syntax/</id>
         
         <content type="html">&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h2&gt;
 &lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;&#x2F;code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;&#x2F;code&gt; elements represent six levels of section
@@ -488,8 +488,8 @@ during Gopherfest, November 18, 2015.&lt;&#x2F;p&gt;
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/blog/math-typesetting/" type="text/html"/>
-        <id>https://medicamina.github.io/blog/math-typesetting/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/blog/math-typesetting/" type="text/html"/>
+        <id>https://docs.medicamina.us/blog/math-typesetting/</id>
         
         <content type="html">&lt;p&gt;In this example we will be using &lt;a href=&quot;https:&#x2F;&#x2F;katex.org&#x2F;&quot;&gt;KaTeX&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -529,8 +529,8 @@ $$&lt;&#x2F;p&gt;
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://medicamina.github.io/authors/svnty/" type="text/html"/>
-        <id>https://medicamina.github.io/authors/svnty/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/authors/svnty/" type="text/html"/>
+        <id>https://docs.medicamina.us/authors/svnty/</id>
         
         <content type="html">&lt;div align=&quot;center&quot;&gt;
 &lt;em&gt;Creator of &lt;b&gt;medicmaina&lt;&#x2F;b&gt;.&lt;&#x2F;em&gt;

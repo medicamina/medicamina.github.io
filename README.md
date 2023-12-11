@@ -4,6 +4,8 @@ The medicamina documentation.
 
 ## Getting started
 
+Install [homebrew](https://brew.sh)
+
 ```bash
 brew install zola
 ```
