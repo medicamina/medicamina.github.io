@@ -277,20 +277,22 @@ AdiDoks will start the Zola development web server accessible by default at
         
     </entry>
     <entry xml:lang="en">
-        <title>Variables</title>
+        <title>Bundle Names</title>
         <published>2021-05-01T08:00:00+00:00</published>
         <updated>2021-05-01T08:00:00+00:00</updated>
         <author>
           <name>Unknown</name>
         </author>
-        <link rel="alternate" href="https://docs.medicamina.us/docs/developing/variables/" type="text/html"/>
-        <id>https://docs.medicamina.us/docs/developing/variables/</id>
+        <link rel="alternate" href="https://docs.medicamina.us/docs/developing/bundle-name/" type="text/html"/>
+        <id>https://docs.medicamina.us/docs/developing/bundle-name/</id>
         
         <content type="html">&lt;h2 id=&quot;networking-permissions&quot;&gt;Networking permissions&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.flutter.dev&#x2F;development&#x2F;data-and-backend&#x2F;networking#platform-notes&quot;&gt;https:&#x2F;&#x2F;docs.flutter.dev&#x2F;development&#x2F;data-and-backend&#x2F;networking#platform-notes&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;rename-app&quot;&gt;Rename app&lt;&#x2F;h2&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flutter&lt;&#x2F;span&gt;&lt;span&gt; pub global activate rename
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flutter&lt;&#x2F;span&gt;&lt;span&gt; pub global run rename&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --appname &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;medicamina&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flutter&lt;&#x2F;span&gt;&lt;span&gt; pub global run rename&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --bundleId&lt;&#x2F;span&gt;&lt;span&gt; com.medicamina.ui
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flutter&lt;&#x2F;span&gt;&lt;span&gt; pub global run rename setAppName&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --value &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;medicamina&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flutter&lt;&#x2F;span&gt;&lt;span&gt; pub global rename setBundleId&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --targets&lt;&#x2F;span&gt;&lt;span&gt; ios&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --value &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;us.medicamina.ios&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flutter&lt;&#x2F;span&gt;&lt;span&gt; pub global rename setBundleId&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --targets&lt;&#x2F;span&gt;&lt;span&gt; android&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; --value &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;us.medicamina.android&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flutter&lt;&#x2F;span&gt;&lt;span&gt; clean
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;flutter&lt;&#x2F;span&gt;&lt;span&gt; pub get
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
