@@ -1,5 +1,5 @@
 +++
-title = "Variables"
+title = "Bundle Names"
 description = "Development variables."
 date = 2021-05-01T08:00:00+00:00
 updated = 2021-05-01T08:00:00+00:00
@@ -23,7 +23,9 @@ top = false
 
 ```bash
 flutter pub global activate rename
-flutter pub global run rename --appname "medicamina" && flutter pub global run rename --bundleId com.medicamina.ui
+flutter pub global run rename setAppName --value "medicamina"
+flutter pub global rename setBundleId --targets ios --value "us.medicamina.ios"
+flutter pub global rename setBundleId --targets android --value "us.medicamina.android"
 flutter clean
 flutter pub get
 ```
