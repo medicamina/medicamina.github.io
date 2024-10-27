@@ -17,7 +17,7 @@ top = false
 
 ## Quick Start
 
-One page summary of how to start medicamina. [Quick Start →](../quick-start/)
+One page summary of how to start medicamina. [Quick Start →](../getting-started/quick-start/)
 
 ## Contributing
 
