@@ -342,7 +342,7 @@ AdiDoks will start the Zola development web server accessible by default at
         <id>https://docs.medicamina.us/docs/getting-started/introduction/</id>
         
         <content type="html">&lt;h2 id=&quot;quick-start&quot;&gt;Quick Start&lt;&#x2F;h2&gt;
-&lt;p&gt;One page summary of how to start medicamina. &lt;a href=&quot;..&#x2F;getting-started&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;One page summary of how to start medicamina. &lt;a href=&quot;..&#x2F;quick-start&#x2F;&quot;&gt;Quick Start →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;contributing&quot;&gt;Contributing&lt;&#x2F;h2&gt;
 &lt;p&gt;Find out how to contribute to medicamina. &lt;a href=&quot;..&#x2F;..&#x2F;contributing&#x2F;how-to-contribute&#x2F;&quot;&gt;Contributing →&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;help&quot;&gt;Help&lt;&#x2F;h2&gt;
